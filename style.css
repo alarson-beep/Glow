@@ -13,14 +13,17 @@ body {
     height: 300px;
     border-radius: 50%;
     box-shadow:
-        inset 0 0 50px #fff,      /* inner white */
-        inset 20px 0 80px #f0f,   /* inner left magenta short */
-        inset -20px 0 80px #0ff,  /* inner right cyan short */
-        inset 20px 0 300px #f0f,  /* inner left magenta broad */
-        inset -20px 0 300px #0ff, /* inner right cyan broad */
-        0 0 50px #fff,            /* outer white */
-        -10px 0 80px #f0f,        /* outer left magenta */
-        10px 0 80px #0ff;         /* outer right cyan */
+        inset 0 0 1em #fff,      /* inner white */
+        inset 4em 0 8em #f0f,   /* inner left magenta short */
+        inset -4em 0 8em #0ff,  /* inner right cyan short */
+        inset 4em 0 30em #f0f,  /* inner left magenta broad */
+        inset -4em 0 30em #0ff, /* inner right cyan broad */
+        0 0 1.5em #fff,            /* outer white */
+        -.5em 0 3em #f0f,        /* outer left magenta */
+        .5em 0 3em #0ff;         /* outer right cyan */
+          -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 .glow-text {
     padding-bottom: 50px;

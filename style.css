@@ -16,8 +16,8 @@ body {
         inset 0 0 .5em #fff,      /* inner white */
         inset 5em 3em 15em #f0f,   /* inner left magenta short */
         inset -5em -3em 15em #0ff,  /* inner right cyan short */
-        inset 5em 3em 30em #f0f,  /* inner left magenta broad */
-        inset -5em -3em 30em #0ff, /* inner right cyan broad */
+        inset 5em 3em 35em #f0f,  /* inner left magenta broad */
+        inset -5em -3em 35em #0ff, /* inner right cyan broad */
         0 0 1.5em #fff,            /* outer white */
         -.5em 0 3em #f0f,        /* outer left magenta */
         .5em 0 3em #0ff;         /* outer right cyan */
